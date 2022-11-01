@@ -1,0 +1,75 @@
+/*
+--- 001 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+default: 400
+medium: 500
+semi-bold: 600
+bold: 700
+
+- Line heigths: 
+default: 1
+small: 1.05
+medium: 1.2
+larg: 1.8
+paragraph defailt: 1.6
+
+--- 02 COLORS
+- Primary: #25062D
+
+tool: maketintsandshades.com
+- Tints: (light version)
+#fdf2e9
+#fae5d3
+#eb984e
+- Shades: (darker version)
+#cf711f
+#45260a;
+- Accents: 
+- Greys: 
+#888
+#767676 (lightest grey allowed on white)
+#555
+#333
+#6f6f6f (lightest grey allowed on #fdf2e9)
+--- 05  SHADOWS
+ 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+--- 06 BORDER-RADIUS
+default: 9px
+medium: 11px
+--- 07 WHITESPACE
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /*10px / 16px = 0.625 = 62.5%*/
+    /*Percentage of users browser font size setting*/
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.hero-section {
+    background: red;
+    height: 80vh;
+}
+
+.hero-img {
+    background: orange;
+    width: 70%;
+}
+img {
+    width: 100%;
+}
+
+.section-programme {
+    height: 40rem;
+    background-color: #25062D;
+}

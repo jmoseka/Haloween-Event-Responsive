@@ -1,0 +1,47 @@
+/* **************************** */
+/* ********HERO SECTION******** */
+/* **************************** */
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    height: 9.6rem;
+    padding: 6.4rem 0;
+    align-items: center;
+    font-size: 2.4rem;
+    color: #e9e6ea;
+}
+
+.main-header a  {
+    color: #e9e6ea;
+    text-decoration: none;
+}
+
+
+.main-nav-link {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 4.8rem;
+    
+}
+
+.nav-link li {
+
+}
+
+.hero-section {
+    background: linear-gradient(to bottom, rgb(84, 22, 58), rgba(231,109,56,1));
+    height: 78vh;
+}
+
+.hero-img {
+    background: orange;
+}
+
+
+.section-programme {
+    height: 40rem;
+    background-color: #25062D;
+}

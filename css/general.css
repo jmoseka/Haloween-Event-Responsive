@@ -56,20 +56,10 @@ html {
     overflow-x: hidden;
 }
 
-.hero-section {
-    background: red;
-    height: 80vh;
+body {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.hero-img {
-    background: orange;
-    width: 70%;
-}
-img {
-    width: 100%;
-}
-
-.section-programme {
-    height: 40rem;
-    background-color: #25062D;
+.container {
+    margin: 0 16.8rem;
 }

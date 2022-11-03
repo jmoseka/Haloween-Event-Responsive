@@ -69,9 +69,14 @@
   background-position: right;
 }
 
-.section-programme {
-  height: 30rem;
-  background-color: var(--purple);
-}
 
-/* hero section headings */
+/* programme sections */
+.section-programme {
+    height: 100rem;
+    background-color: var(--purple);
+  }
+
+/* 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+.heading-program {
+    padding-top: 24rem;
+}

@@ -49,7 +49,7 @@ medium: 11px
     --yellow: #FDB124;
     --orange: #E76D38;
     --dark_orange: #B9572D;
-    --light: #fff5e1;
+    --lightest_purple: #e9e6ea;
     --blue: #091e42;
     --dark-orange: #ff6b00;
   }
@@ -68,7 +68,7 @@ html {
 }
 
 body {
-    color: #e9e6ea;
+    color: var(--lightest_purple);
     font-family: 'Roboto Slab', serif;
 
     

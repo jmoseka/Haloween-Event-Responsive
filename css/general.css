@@ -99,7 +99,7 @@ body {
 .heading-tertiary {
     font-size: 2.4rem;
     line-height: 1.5;
-    max-width: 130rem;
+    max-width: 60%;
  }
 
 .btn {
@@ -120,6 +120,6 @@ body {
     color: #fff;
 }
 
-.highlight-text {
+.highlight-yellow {
     color: var(--yellow);  
 }

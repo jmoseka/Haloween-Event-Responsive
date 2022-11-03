@@ -12,12 +12,12 @@
     justify-content: space-between;
     align-items: center;
     font-size: 2.4rem;
-    color: #e9e6ea;
+    color: var(--lightest_purple);
     height: 12rem;
 }
 
 .main-header a  {
-    color: #e9e6ea;
+    color: var(--lightest_purple);
     text-decoration: none;
 }
 
@@ -28,7 +28,16 @@
     display: flex;
     gap: 4.8rem;
     align-items: center;
-    
+}
+
+.main-nav-link li {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.main-nav-link li:hover,
+.main-nav-link li:active {
+    color: var(--orange);
 }
 
 

@@ -78,7 +78,7 @@
 
 .section-programme {
   background-color: var(--purple);
-  padding-top: 24rem;
+  padding: 24rem 0 12rem 0;
 }
 
 .programme-cards {
@@ -169,7 +169,7 @@
 
 .section-cta {
   background-color: var(--purple);
-  padding-top: 24rem;
+  padding: 16rem 0;
   display: flex;
   justify-content: center;
 }
@@ -219,4 +219,23 @@
   background: var(--lightest_purple);
   color: var(--dark_purple);
   border: 1px solid var(--dark_purple);
+}
+
+/* **************************** */
+
+/* ********FOOTER SECTION******** */
+
+/* **************************** */
+
+.section-footer {
+  background-color: var(--purple);
+  height: 12rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--lightest_purple);
+}
+
+.copyright {
+  font-size: 1.4rem;
 }

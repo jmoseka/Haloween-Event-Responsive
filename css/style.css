@@ -70,13 +70,14 @@
   background-position: right;
 }
 
-/* programme sections */
+/* **************************** */
+
+/* ********PROGRAMME SECTION******** */
+
+/* **************************** */
+
 .section-programme {
   background-color: var(--purple);
-}
-
-/* 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
-.heading-program {
   padding-top: 24rem;
 }
 
@@ -158,4 +159,64 @@
   max-width: 100%;
   height: 30rem;
   border: 4px solid var(--dark_pink);
+}
+
+/* **************************** */
+
+/* ********CTA SECTION******** */
+
+/* **************************** */
+
+.section-cta {
+  background-color: var(--purple);
+  padding-top: 24rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-container {
+  width: 80%;
+  background-color: var(--lightest_purple);
+  padding: 8rem 12rem;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  line-height: 1.05;
+  color: var(--orange);
+  font-weight: 500;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+  color: var(--dark_purple);
+}
+
+.cta-form label {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form button {
+  font-size: 2rem;
+  font-family: inherit;
+}
+
+.cta-form input,
+.cta-form select {
+  outline: none;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  background: var(--lightest_purple);
+  color: var(--dark_purple);
+  border: 1px solid var(--dark_purple);
 }

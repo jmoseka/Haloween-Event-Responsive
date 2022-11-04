@@ -50,12 +50,12 @@ medium: 11px
   --orange: #e76d38;
   --dark_orange: #b9572d;
   --lightest_purple: #e9e6ea;
-  --blue: #091e42;
-  --dark-orange: #ff6b00;
+  --dark_pink: #54163A;
 }
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -64,11 +64,16 @@ html {
 
   /* Percentage of users browser font size setting */
   font-size: 62.5%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   color: var(--lightest_purple);
   font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding: 0;
+  
 }
 
 .container {
@@ -78,6 +83,8 @@ body {
 .grid {
   display: grid;
 }
+
+/* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
 .heading-primary {
   font-weight: 700;
@@ -120,3 +127,6 @@ body {
 .highlight-yellow {
   color: var(--yellow);
 }
+
+/*  Font sizes (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */

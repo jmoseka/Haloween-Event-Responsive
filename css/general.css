@@ -46,6 +46,7 @@ medium: 11px
 
 :root {
   --purple: #25062d;
+  --dark_purple: #66516c;
   --yellow: #fdb124;
   --orange: #e76d38;
   --dark_orange: #b9572d;
@@ -121,6 +122,12 @@ body {
 .btn:active {
   background: var(--dark_orange);
   color: #fff;
+}
+
+#btn-form {
+  padding: 0;
+  margin: 0;
+  background-color: #54163a;
 }
 
 .highlight-yellow {

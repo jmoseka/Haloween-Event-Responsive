@@ -205,21 +205,19 @@
   margin-bottom: 1.2rem;
 }
 
-
 .cta-form button {
-  font-size: 2.0rem;
+  font-size: 2rem;
+  font-family: inherit;
 }
 
 .cta-form input,
-.cta-form select
-{
-    outline: none;
-    width: 100%;
-    padding: 1.2rem;
-    font-size: 1.8rem;
-    font-family: inherit;
-    background: var(--lightest_purple);
-    color: var(--dark_purple);
-    border: 1px solid var(--dark_purple);
-
+.cta-form select {
+  outline: none;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  background: var(--lightest_purple);
+  color: var(--dark_purple);
+  border: 1px solid var(--dark_purple);
 }

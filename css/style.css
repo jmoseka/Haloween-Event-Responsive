@@ -47,7 +47,6 @@
   display: grid;
   grid-template-columns: 58% 42%;
   margin-left: 5%;
-
   height: 35vw;
 }
 
@@ -60,7 +59,6 @@
 .hero-text-content {
   padding: 12rem 0;
 }
-
 
 .hero-img {
   /* position: absolute;
@@ -88,7 +86,7 @@
 
 .section-programme {
   background-color: var(--purple);
-  padding: 24rem 0 12rem 0;
+  padding: 20rem 0 12rem 0;
 }
 
 .programme-cards {

@@ -195,6 +195,7 @@
   column-gap: 3.2rem;
   row-gap: 2.4rem;
   color: var(--dark_purple);
+  align-items: end;
 }
 
 .cta-form label {
@@ -207,6 +208,8 @@
 .cta-form button {
   font-size: 2rem;
   font-family: inherit;
+  height:6rem;
+
 }
 
 .cta-form input,

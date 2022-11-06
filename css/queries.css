@@ -213,11 +213,17 @@
 
     .card-box {
         height: 50rem;
-        grid-template-columns: 0.55fr 0.15fr;
+        padding: 2rem;
+        grid-template-columns: 0.62fr 0.25fr;
     }
 
     .card-box--even {
-        grid-template-columns: 0.15fr 0.55fr;
+        grid-template-columns: 0.25fr 0.62fr;
     }
+}
+
+@media(max-width:23.75em) {
+
+    
 
 }

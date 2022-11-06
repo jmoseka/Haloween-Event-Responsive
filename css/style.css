@@ -84,7 +84,6 @@
   margin-top: -12rem;
   height: 4rem;
   background: var(--purple);
-  background: red;
 }
 
 /* **************************** */
@@ -95,12 +94,22 @@
 
 .section-programme {
   background-color: var(--purple);
-  width: 100%;
+  max-width: 100%;
   padding: 20rem 0 12rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  justify-content: space-between;
   
 }
 
+.heading-program {
+  width: 100%;
+}
+
 .programme-cards {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

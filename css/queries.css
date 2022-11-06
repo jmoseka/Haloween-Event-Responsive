@@ -156,6 +156,14 @@
         font-size: 37.5%;
     }
 
+    .main-nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
     .hero-headings {
         width: 100%;
         
@@ -194,9 +202,14 @@
     }
 }
 
-/* below  30px */
+/* below  480px */
 
 @media(max-width:30em) {
+
+    .hero-img img {
+        width: 90%;
+        
+    }
 
     .card-box {
         height: 50rem;

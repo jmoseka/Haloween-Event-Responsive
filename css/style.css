@@ -46,6 +46,10 @@
   color: var(--orange);
 }
 
+.menu {
+  display: none;
+  font-size: 4rem;
+}
 
 .hero-grid {
   max-width: 100%;

@@ -172,6 +172,10 @@
         
     }
 
+    .programme-cards {
+        gap: 20rem;
+    }
+
     .cta-container {
         width: 90%;
         padding: 4rem;
@@ -184,8 +188,23 @@
     .cta-form button {
         margin-top: 2rem;
     }
+
+    .section-cta {
+        padding: 8rem 0;
+    }
 }
 
+/* below  30px */
+
 @media(max-width:30em) {
-    
+
+    .card-box {
+        height: 50rem;
+        grid-template-columns: 0.55fr 0.15fr;
+    }
+
+    .card-box--even {
+        grid-template-columns: 0.15fr 0.55fr;
+    }
+
 }

@@ -1,14 +1,138 @@
- /**************************************/
-/**********BELOW 1344px (smaller desktop)*********/
-/**************************************/
+ /*************************************/
+/*********BELOW 1344px (smaller desktop)*********/
+/************************************/
+
  /* 1350 / 16 */
- /* @media (max-width: 93.75em) {
+@media (max-width: 107.0em) {
     html {
-        font-size: 52.25%;
+        /* 9.5px */
+        font-size: 59.37%;
     }
 
-    .hero-grid {
-        height: 40vw;
-        grid-template-columns: 55% 45%;
+    
+    /* .hero-img img {
+        width: 105%;
+    } */
+}
+
+@media(max-width:93.75em) {
+    html {
+        font-size: 56.25%;
     }
- } */
+}
+
+/* below 1400px */
+@media(max-width:88.5em) {
+    /* .hero-grid {
+        grid-template-columns: 60% 40%;
+    } */
+
+    /* .hero-img img {
+        width: 135%;
+        margin-left: -18rem;
+    } */
+    .heading-primary {
+        font-size: 4.0rem;
+    }
+    .heading-secondary {
+        font-size: 3.2rem;
+    }
+    .heading-tertiary {
+        font-size: 2.2rem;
+    }
+}
+
+/* below 1310px */
+
+@media(max-width:81.875em) {
+    html {
+        font-size: 53.125%;
+    }
+
+    .card-box {
+        height: 62rem;
+    }
+
+    
+    /* .hero-grid {
+        grid-template-columns: 62% 48%;
+    } */
+/* 
+    .hero-img img {
+        width: 114%;
+        margin-left: -18rem;
+    } */
+}
+
+/* below 1200px */
+
+@media(max-width:75em) {
+
+    .hero-grid {
+        grid-template-columns: 68% 42%;
+    }
+
+    .hero-img img {
+        width: 140%;
+        margin-left: -28rem;
+    }
+
+    .card-box {
+        height: 58rem;
+        grid-template-columns: 0.45fr 0.15fr;
+    }
+
+    .card-box--even {
+        grid-template-columns: 0.15fr 0.45fr;
+    }
+
+    .card-img--odd {
+        margin-left: -8rem;
+    }
+
+    .card-img--even {
+        margin-right: -8rem;
+    }
+
+    .card-title {
+        font-size: 2.5rem;
+    }
+
+    .card-description {
+        font-size: 2rem;
+    }
+
+}
+
+/* below 1012px */
+
+@media(max-width:63.25em) {
+    html {
+        font-size: 46.875%;
+    }
+
+    .heading-tertiary-box {
+        margin: 0 12rem;
+    }
+    .hero-grid {
+       
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text-content {
+        padding: 8rem 0 2rem 0;
+      }
+
+    
+
+      .hero-img {
+        text-align: center;
+        margin: 0;
+      }
+
+    .hero-img img {
+        width: 58%;
+        margin: 0;
+    }
+}

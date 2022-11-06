@@ -49,7 +49,7 @@
 .hero-grid {
   max-width: 100%;
   display: grid;
-  grid-template-columns: 58% 40%;
+  grid-template-columns: 55% 45%;
   height: 70rem;
 }
 
@@ -65,22 +65,14 @@
 }
 
 .hero-img {
-  /* position: absolute;
-  top: 15%;
-  right: 0; */
   margin-bottom: -16%;
-  margin-left: -25%;
-  justify-self: end;
   align-self: end;
   z-index: 0;
-  /* background-image: url(/img/hero_2x.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: right; */
 }
 
 .hero-img img {
-  width: 110%;
+  width: 118%;
+  margin-left: -12rem;
 }
 
 /* **************************** */
@@ -101,7 +93,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 7%;
+  margin-top: 16rem;
   gap: 24rem;
 }
 

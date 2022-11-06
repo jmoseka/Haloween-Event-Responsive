@@ -76,8 +76,20 @@ body {
   padding: 0;
 }
 
+main {
+  background-color: var(--purple);
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
-  margin: 0 5%;
+  max-width: 185rem;
+  padding: 0 4rem;
+
 }
 
 .grid {
@@ -90,7 +102,6 @@ body {
     10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
 .heading-primary {
-  font-weight: 700;
   font-size: 4.4rem;
   line-height: 1.1;
   margin-bottom: 3.2rem;

@@ -2,7 +2,7 @@
 /**********BELOW 1344px (smaller desktop)*********/
 /**************************************/
  /* 1350 / 16 */
- @media (max-width: 93.75em) {
+ /* @media (max-width: 93.75em) {
     html {
         font-size: 52.25%;
     }
@@ -11,4 +11,4 @@
         height: 40vw;
         grid-template-columns: 55% 45%;
     }
- }
+ } */

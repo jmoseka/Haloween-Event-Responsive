@@ -29,7 +29,7 @@
 
     /* .hero-img img {
         width: 135%;
-        margin-left: -18rem;
+       
     } */
     .heading-primary {
         font-size: 4.0rem;
@@ -46,7 +46,7 @@
 
 @media(max-width:81.875em) {
     html {
-        font-size: 53.125%;
+        font-size: 52.125%;
     }
 
     .card-box {
@@ -57,11 +57,10 @@
     /* .hero-grid {
         grid-template-columns: 62% 48%;
     } */
-/* 
     .hero-img img {
-        width: 114%;
+        width: 134%;
         margin-left: -18rem;
-    } */
+    } 
 }
 
 /* below 1200px */
@@ -73,12 +72,12 @@
     }
 
     .hero-img img {
-        width: 140%;
+        
         margin-left: -28rem;
     }
 
     .card-box {
-        height: 58rem;
+        height: 50rem;
         grid-template-columns: 0.45fr 0.15fr;
     }
 
@@ -87,19 +86,22 @@
     }
 
     .card-img--odd {
+        margin-top: -2rem;
         margin-left: -8rem;
     }
 
     .card-img--even {
+        margin-top: -2rem;
         margin-right: -8rem;
     }
 
     .card-title {
         font-size: 2.5rem;
+        margin: 4rem 0 2rem 0;
     }
 
     .card-description {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
 }
@@ -114,6 +116,8 @@
     .heading-tertiary-box {
         margin: 0 12rem;
     }
+
+
     .hero-grid {
        
         text-align: center;
@@ -132,7 +136,56 @@
       }
 
     .hero-img img {
-        width: 58%;
+        width: 65%;
         margin: 0;
     }
+
+    .banner {
+        /* height: 2rem; */
+        background: var(--purple);
+    }
+
+
+    .card-img img {
+        height: 25rem;
+      }
+}
+
+@media(max-width:43.75em) {
+    html {
+        font-size: 37.5%;
+    }
+
+    .hero-headings {
+        width: 100%;
+        
+        text-align: center;
+    }
+
+    .heading-tertiary-box {
+        margin: 0 2rem;
+        
+    }
+
+    .hero-img img {
+        width: 75%;
+        
+    }
+
+    .cta-container {
+        width: 90%;
+        padding: 4rem;
+    }
+
+    .cta-form {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-form button {
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:30em) {
+    
 }

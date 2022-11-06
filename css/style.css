@@ -46,11 +46,12 @@
   color: var(--orange);
 }
 
+
 .hero-grid {
   max-width: 100%;
   display: grid;
-  grid-template-columns: 55% 45%;
-  height: 70rem;
+  grid-template-columns: 55% 40%;
+  height: 80rem;
 }
 
 .hero-date {
@@ -65,14 +66,21 @@
 }
 
 .hero-img {
-  margin-bottom: -16%;
   align-self: end;
   z-index: 0;
 }
 
 .hero-img img {
-  width: 118%;
+  width: 120%;
   margin-left: -12rem;
+}
+
+.banner {
+  max-width: 100vw;
+  margin-top: -12rem;
+  height: 4rem;
+  background: var(--purple);
+  background: red;
 }
 
 /* **************************** */
@@ -153,7 +161,7 @@
 .card-description {
   font-size: 2.2rem;
   line-height: 1.8;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
 }
 
 .card-img {

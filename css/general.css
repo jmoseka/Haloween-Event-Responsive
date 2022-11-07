@@ -82,7 +82,7 @@ main {
 
 .container {
   max-width: 185rem;
-  padding: 0 4rem;
+   margin: 0 5rem;
 
 }
 
@@ -96,7 +96,7 @@ main {
     10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
 .heading-primary {
-  font-size: 4.4rem;
+  font-size: 4rem;
   line-height: 1.3;
   font-weight: 500;
   margin-bottom: 3.2rem;
@@ -104,9 +104,9 @@ main {
 
 .heading-secondary {
   font-weight: 500;
-  font-size: 3.6rem;
+  font-size: 3rem;
   line-height: 1;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.6rem;
 }
 
 .heading-tertiary {

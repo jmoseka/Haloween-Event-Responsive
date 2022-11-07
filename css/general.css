@@ -110,7 +110,7 @@ main {
 }
 
 .heading-tertiary {
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
@@ -118,9 +118,9 @@ main {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: var(--orange);
   border: none;
-  padding: 1.6rem;
+  padding: 1.4rem;
   color: #e9e6ea;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   cursor: pointer;
   transition: all 0.3s;
   outline: none;

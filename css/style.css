@@ -57,7 +57,7 @@
   min-width: 100%;
   display: flex;
   flex-direction: column;
-  height: 56rem;
+  height: 60rem;
   position: relative;
 }
 
@@ -71,7 +71,8 @@
 }
 
 .heading-description {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .hero-date {
@@ -91,14 +92,6 @@
   
 }
 
-.bannr {
-  width: 100vw;
-  margin-top: -18rem;
-  height: 6rem;
-  background: var(--purple);
-  border: 5px solid purple;
-}
-
 /* **************************** */
 
 /* ********PROGRAMME SECTION******** */
@@ -111,40 +104,55 @@
   padding: 18rem 0 12rem 0;
   display: flex;
   flex-direction: column;
-  
-}
-
-.heading-program {
-  margin-bottom: 6rem;
+  align-items: center;
 }
 
 .programme-cards {
-  width: 100%;
+  background: 5px sol;
+  padding: 8rem 0;
   display: flex;
   flex-direction: column;
-  gap: 24rem;
+  gap: 32rem;
+  
+}
+
+.card-box {
+  height: 45rem;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  width: 40%;
+  background-color: rgb(124, 106, 129, 18%);
+  height: inherit;
+  padding: 6rem;
+  
 }
 
 
-
-
 .card-title {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 2.5;
   font-weight: 500;
 }
 
 .card-description {
-  font-size: 1.8rem;
-  line-height: 1;
+  font-size: 1.6rem;
+  line-height: 2;
   letter-spacing: .05rem;
 }
 
-
 .card-img img {
-  object-fit: contain;
-  max-width: 100%;
+  position: absolute;
+  width: 28rem;
+  height: 25rem;
+  object-fit: cover;
   border: 4px solid var(--dark_pink);
+  top: 60%;
+  left: 33%
 }
 
 /* **************************** */

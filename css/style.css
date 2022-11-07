@@ -57,7 +57,7 @@
   min-width: 100%;
   display: flex;
   flex-direction: column;
-  height: 75rem;
+  height: 56rem;
   position: relative;
 }
 
@@ -66,12 +66,16 @@
   z-index: 5;
 }
 
-.heading-tertiary-box {
+.heading-description-box {
   width: 65%;
 }
 
+.heading-description {
+  font-size: 1.8rem;
+}
+
 .hero-date {
-  font-size: 3rem;
+  font-size: 2.4rem;
   line-height: 1;
   margin-top: 4rem;
 }
@@ -79,7 +83,7 @@
 
 .hero-img img {
   position: absolute;
-  top: 20%;
+  top: 25%;
   right: -6%;
   width: 66%;
   height: 55rem;
@@ -87,7 +91,7 @@
   
 }
 
-.banner {
+.bannr {
   width: 100vw;
   margin-top: -18rem;
   height: 6rem;
@@ -111,16 +115,13 @@
 }
 
 .heading-program {
-  margin: 0 5rem;
+  margin-bottom: 6rem;
 }
 
 .programme-cards {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 16rem;
   gap: 24rem;
 }
 
@@ -128,21 +129,20 @@
 
 
 .card-title {
-  font-size: 3rem;
-  line-height: 2;
-  margin: 8rem 0 4rem 0;
+  font-size: 2.4rem;
+  line-height: 2.5;
   font-weight: 500;
 }
 
 .card-description {
-  font-size: 2.2rem;
-  line-height: 1.8;
-  letter-spacing: .5px;
+  font-size: 1.8rem;
+  line-height: 1;
+  letter-spacing: .05rem;
 }
 
 
 .card-img img {
-  object-fit: cover;
+  object-fit: contain;
   max-width: 100%;
   border: 4px solid var(--dark_pink);
 }

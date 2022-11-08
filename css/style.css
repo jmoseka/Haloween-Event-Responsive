@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: var(--lightest_purple);
   height: 12rem;
   
@@ -57,37 +57,41 @@
   min-width: 100%;
   display: flex;
   flex-direction: column;
-  height: 60rem;
+  height: 45rem;
   position: relative;
 }
 
 .hero-text-content {
-  padding-top: 8rem;
+  padding-top: 6rem;
   z-index: 5;
 }
 
 .heading-description-box {
-  width: 65%;
+  width: 55%;
 }
 
 .heading-description {
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.5;
 }
 
 .hero-date {
   font-size: 2.4rem;
   line-height: 1;
-  margin-top: 4rem;
+  margin-top: 8rem;
+  letter-spacing: 0.02rem;
 }
 
+.hero-img {
+  text-align: end;
+}
 
 .hero-img img {
   position: absolute;
-  top: 25%;
-  right: -6%;
-  width: 66%;
-  height: 55rem;
+  top: 22%;
+  left: 35%;
+  width: 75%;
+  height: 45rem;
   object-fit: contain;
   
 }
@@ -101,7 +105,7 @@
 .section-programme {
   background-color: var(--purple);
   max-width: 100%;
-  padding: 18rem 0 12rem 0;
+  padding: 14rem 0 12rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;

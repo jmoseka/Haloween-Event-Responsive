@@ -72,47 +72,60 @@ html {
 body {
   color: var(--lightest_purple);
   font-family: 'Roboto Slab', serif;
-  margin: 0;
-  padding: 0;
+  overflow-x: hidden;
+}
+
+main {
+  background-color: var(--purple);
 }
 
 .container {
-  margin: 0 5%;
+  max-width: 185rem;
+  width: 100%;
+  padding: 0 5rem;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .grid {
   display: grid;
+  gap: 0;
 }
 
 /* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
+/* Font sizes (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
 .heading-primary {
-  font-weight: 700;
-  font-size: 5.2rem;
-  line-height: 1.05;
-  margin-bottom: 3.2rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin-bottom: 1.4rem;
 }
 
 .heading-secondary {
-  font-weight: 500;
-  font-size: 3.6rem;
+  font-weight: 400;
+  font-size: 2rem;
   line-height: 1;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.6rem;
 }
 
 .heading-tertiary {
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 1.5;
-  max-width: 60%;
 }
 
 .btn {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: var(--orange);
   border: none;
-  padding: 1.6rem;
+  padding: 1rem;
   color: #e9e6ea;
-  font-size: 1.6rem;
+  font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s;
   outline: none;

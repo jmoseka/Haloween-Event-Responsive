@@ -9,93 +9,104 @@
     <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/queries.css"> -->
     <title>Halloween Event</title>
 </head>
 <body>
     <main>
         <!-- Hero section -->
-        <section class="hero-section grid grid--3-rows ">
-            <header class="main-header container">
-                <a class="logo" href="#">Makutano</a>
-                <nav class="main-nav">
-                    <ul class="main-nav-link">
-                        <li>Home</li>
-                        <li>Program</li>
-                        <button class="btn nav-btn">GET YOUR TICKET</button> 
-                    </ul>    
-                </nav>
-            </header>
+        <section class="home-section">
 
-            <div class="hero-text-content container">
-                    <div class="hero-headings">
-                        <h1 class="heading-primary">A <span class="highlight-yellow">WICKED</span> GOOD TIME PARTY EVENT</h1>
-                        <div class="heading-tertiary-box">
-                            <p class="heading-tertiary">Come get spooky with us! 
-                                We are inviting you to a fun filled day on halloween. 
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem officiis 
-                                voluptatem necessitatibus ducimus maiores
-                            </p>
+            <section class="hero-section container">
+                <header class="main-header">
+                    <a class="logo" href="#">Makutano</a>
+                    <nav class="main-nav">
+                        <ul class="main-nav-link">
+                            <li>Home</li>
+                            <li>Program</li>
+                            <button class="btn nav-btn">GET YOUR TICKET</button> 
+                        </ul>    
+                    </nav>
+
+                    <ion-icon class="menu" name="menu-sharp"></ion-icon>
+                </header>
+    
+                <div class="hero-grid">
+                    <div class="hero-text-content">
+                        <div class="hero-headings">
+                            <h1 class="heading-primary">A <span class="highlight-yellow">WICKED</span> GOOD TIME PARTY EVENT</h1>
+                            <div class="heading-description-box">
+                                <p class="heading-description">Come get spooky with us! 
+                                    We are inviting you to a fun filled day on halloween. 
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                </p>
+                            </div>
                         </div>
                     </div>
 
-                    <p class="hero-date">2022.10.31(MON)</p>       
-            </div>
-
-            <div class="hero-img">
-            </div>   
+                    <p class="hero-date">2022.10.31(MON)</p>      
+    
+                <div class="hero-img">
+                    <img class="resize" src="/img/hero_4x_enhancer.png" alt="">
+                    
+                </div>  
+                </div> 
+                
+            </section>
+           
+            
         </section>
-
-        <section class="section-programme">
-            <h2 class="heading-secondary heading-program container">WHATS GOING ON HERE ?</h2>
-
-            <div class="programme-cards container">
+        
+        
+            <section class="section-programme">
+                <div class="container heading-program ">
+                    <h2 class="heading-secondary">WHAT WILL BE THERE</h2>
+                </div>
+                
+                <div class="programme-cards container">
                 <div class="card-box">
-                    <div class="card-text-box">
-                        <div class="card-text">
-                            <div class="card-title highlight-yellow">FUN</div>
-                            <div class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quia vero commodi enim placeat, voluptatem laboriosam maxime explicabo laborum</div>
-                        </div>
+                    <div class="card-text">
+                            <h3 class="card-title highlight-yellow">FUN</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quia vero commodi enim placeat, voluptatem laboriosam maxime explicabo laborum</p>
                     </div>
 
-                    <div class="card-img card-img--odd">
+                    <div class="card-img">
                         <img src="img/fun.jpg" alt="People on merry-go-round">
                     </div>
                 </div>
 
 
 
-                <div class="card-box card-box--even">
-                    <div class="card-img card-img--even">
-                        <img src="img/food.jpg" alt="People on merry-go-round">
+                <div class="card-box">
+                    <div class="card-text">
+                            <h3 class="card-title highlight-yellow">FOOD</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quia vero commodi enim placeat, voluptatem laboriosam maxime explicabo laborum</p>
                     </div>
-
-                    <div class="card-text-box card-text-box--even">
-                        <div class="card-text card-text--even">
-                            <div class="card-title highlight-yellow">FOOD</div>
-                            <div class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quia vero commodi enim placeat, voluptatem laboriosam maxime explicabo laborum</div>
-                        </div>
+                    <div class="card-img">
+                        <img src="img/fun.jpg" alt="People on merry-go-round">
                     </div>
 
                 </div>
 
+
                 <div class="card-box">
-                    <div class="card-text-box">
-                        <div class="card-text">
-                            <div class="card-title highlight-yellow">MUSIC</div>
-                            <div class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quia vero commodi enim placeat, voluptatem laboriosam maxime explicabo laborum</div>
-                        </div>
+                    <div class="card-text">
+                            <h3 class="card-title highlight-yellow">MUSIC</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quia vero commodi enim placeat, voluptatem laboriosam maxime explicabo laborum</p> 
                     </div>
 
-                    <div class="card-img card-img--odd">
+                    <div class="card-img">
                         <img src="img/music.jpg" alt="People on merry-go-round">
                     </div>
                 </div>
-                 
-            </div>
+
         </section>
+
+
+
 
         <section class="section-cta">
             <div class="cta-container">
@@ -129,6 +140,8 @@
 
                 </form>
             </div>
+
+            </div>
         </section>
     </main>
 
@@ -136,5 +149,8 @@
         <p class="copyright container">copyright &copy; 2022 by Jamila Moseka, Inc. All rights reserved</p>
 
     </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

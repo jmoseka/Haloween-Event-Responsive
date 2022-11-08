@@ -12,7 +12,6 @@
   align-items: center;
 }
 
-
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -20,7 +19,6 @@
   font-size: 1.6rem;
   color: var(--lightest_purple);
   height: 12rem;
-  
 }
 
 .main-header a {
@@ -93,7 +91,6 @@
   width: 75%;
   height: 45rem;
   object-fit: contain;
-  
 }
 
 /* **************************** */
@@ -117,7 +114,6 @@
   display: flex;
   flex-direction: column;
   gap: 32rem;
-  
 }
 
 .card-box {
@@ -133,9 +129,7 @@
   background-color: rgb(124, 106, 129, 18%);
   height: inherit;
   padding: 6rem;
-  
 }
-
 
 .card-title {
   font-size: 2.2rem;
@@ -146,7 +140,7 @@
 .card-description {
   font-size: 1.6rem;
   line-height: 2;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
 }
 
 .card-img img {
@@ -156,7 +150,7 @@
   object-fit: cover;
   border: 4px solid var(--dark_pink);
   top: 60%;
-  left: 33%
+  left: 33%;
 }
 
 /* **************************** */
@@ -206,8 +200,7 @@
 .cta-form button {
   font-size: 2rem;
   font-family: inherit;
-  height:6rem;
-
+  height: 6rem;
 }
 
 .cta-form input,

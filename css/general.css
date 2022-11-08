@@ -60,7 +60,6 @@ medium: 11px
   box-sizing: border-box;
 }
 
-
 html {
   /* 10px / 16px = 0.625 = 62.5% */
 
@@ -98,6 +97,7 @@ main {
 }
 
 /* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
 /* Font sizes (px)
     10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
@@ -125,7 +125,7 @@ main {
   border: none;
   padding: 1rem;
   color: #e9e6ea;
-  font-size: 1.rem;
+  font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s;
   outline: none;

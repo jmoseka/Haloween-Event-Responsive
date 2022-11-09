@@ -91,6 +91,7 @@
   width: 75%;
   height: 45rem;
   object-fit: contain;
+  z-index: 8;
 }
 
 /* **************************** */
@@ -106,6 +107,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+
+.program-bg {
+  padding: 0;
+  position: relative;
+}
+
+.card-icon {
+  position: absolute;
+  width: 20rem;
+}
+
+.hat {
+  transform: rotate(18deg);
+  right: 18%;
+  top: 12%;
+}
+
+.music {
+  left: 13%;
+  top: 42%;
+}
+
+.food {
+  transform: rotate(-18deg);
+  right: 18%;
+  top: 78%;
 }
 
 .programme-cards {
@@ -126,7 +155,6 @@
 
 .card:nth-child(odd) {
   align-self: flex-start;
-  margin-left: 6rem;
 }
 
 .card:nth-child(even) {
@@ -158,12 +186,13 @@
 
 .card-title {
   font-size: 1.6rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.7px;
   font-weight: 500;
 }
 
 .card-description {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 2;
   letter-spacing: 0.05rem;
 }

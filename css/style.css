@@ -86,9 +86,9 @@
 
 .hero-img img {
   position: absolute;
-  top: 22%;
+  top: 24%;
   left: 35%;
-  width: 75%;
+  width: 72%;
   height: 45rem;
   object-fit: contain;
   z-index: 8;
@@ -126,19 +126,19 @@
   top: 12%;
 }
 
-.music {
+.food {
   left: 13%;
   top: 42%;
 }
 
-.food {
+.music {
   transform: rotate(-18deg);
   right: 18%;
   top: 78%;
 }
 
 .programme-cards {
-  padding: 6rem 0;
+  padding: 8rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;

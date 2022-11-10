@@ -151,9 +151,12 @@
   position: relative;
   display: grid;
   grid-template-columns: 50fr 60fr;
+  transition: all 0.4s;
 }
 
-
+.card:hover {
+  transform: translateY(-1.2rem);
+}
 
 .card:nth-child(odd) {
   align-self: flex-start;

@@ -292,7 +292,6 @@
 .contact-icons-container {
   margin-left: 2rem;
   font-size: 1.6rem;
-
 }
 
 .contact-icon {
@@ -305,5 +304,3 @@
 .contact-icon:hover {
   color: var(--orange);
 }
-
-

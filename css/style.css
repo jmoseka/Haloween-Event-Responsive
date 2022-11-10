@@ -48,6 +48,12 @@
 .menu {
   display: none;
   font-size: 4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.menu:hover {
+  color: var(--orange);
 }
 
 .hero-grid {
@@ -75,7 +81,7 @@
 }
 
 .hero-date {
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 1;
   margin-top: 8rem;
   letter-spacing: 0.02rem;
@@ -287,16 +293,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 4rem;
 }
 
 .contact-icons-container {
-  margin-left: 2rem;
   font-size: 1.6rem;
 }
 
 .contact-icon {
   color: var(--lightest_purple);
-  margin-left: 2rem;
+ margin-left: 2rem;
   cursor: pointer;
   transition: all 0.3s;
 }

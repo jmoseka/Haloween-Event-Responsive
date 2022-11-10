@@ -9,10 +9,9 @@
         grid-template-columns: 60fr 50fr;
     }
 
-
      .card:nth-child(even) .card-text {
         grid-row: 1;
-        text-align: right;
+     
 
     }
 
@@ -35,21 +34,33 @@
 
     .hero-img img {
         top: 27%;
-        width: 74%;
-        left: 30%;
+        width: 80%;
+        left: 28%;
     }    
 }
 
     /* below 730px */
 @media (max-width: 45.625em) {
 
+    .main-nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .hero-text-content {
+        padding-top: 4rem;
+    }
+
     .hero-grid {
-        height: 52rem;
+        
        grid-template-columns: 1fr;
     }
 
     .hero-date {
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 
     .hero-img {
@@ -58,12 +69,19 @@
     }
 
     .hero-img img {
+        width: 108%;
+        top: 40%;
+        left: -2%;
+        height: 36rem;
+       /* top: 43%;
+       left: -2%;
+       height: 38rem; */
         
-        width: 100%;
-       top: 43%;
-       left: 5%;
-       height: 40rem;
-        
+    }
+
+    .programme-cards {
+        row-gap: 8rem;
+        padding: 4rem 0;
     }
 
     .card {
@@ -79,12 +97,22 @@
         padding: 6rem 5.5rem 6rem 2rem;
     }
 
+    .footer-container {
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
 }
 
 @media (max-width: 37.5em) {
+    html {
+        font-size: 50%;
+    } 
+
     .card, .card:nth-child(even) {
         height: auto;
        grid-template-columns: 1fr;
+       
        /* display: flex;
        flex-direction: column;
        align-items: center; */
@@ -107,12 +135,61 @@
      }
 
 
-     .card-text {
-        width: fit-content;
+     .card-text, .card:nth-child(even) .card-text {
+        padding: 4rem 2rem;
+        width: 100%;
         height: auto;
+        text-align: center;
+     }
+
+     .section-programme {
+        padding: 14rem 0 4rem 0;
      }
 
      .cta-form {
         grid-template-columns: 1fr;
      }
+
+}
+
+@media(max-width: 33.4375em) {
+    
+
+    
+
+    .heading-primary {
+        font-size: 2.4rem;
+    }
+
+    .heading-secondary {
+        font-size: 1.6rem;
+    }
+
+    .card {
+        padding: 0 2rem;
+    }
+}
+
+@media(max-width: 27em) {
+    .hero-grid {
+        height: 48rem;
+    
+    }
+
+    .hero-img img {
+        border: 8px solid red;
+        top: 47%;
+        left: -14%;
+        width: 130%;
+
+    }
+
+
+}
+
+@media(max-width: 22.5em)
+{
+    .cta-container {
+        width: 90%;
+    }
 }

@@ -153,6 +153,8 @@
   grid-template-columns: 50fr 60fr;
 }
 
+
+
 .card:nth-child(odd) {
   align-self: flex-start;
 }
@@ -275,10 +277,30 @@
 }
 
 .copyright {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .footer-container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
+
+.contact-icons-container {
+  margin-left: 2rem;
+  font-size: 1.6rem;
+
+}
+
+.contact-icon {
+  color: var(--lightest_purple);
+  margin-left: 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contact-icon:hover {
+  color: var(--orange);
+}
+
+

@@ -79,6 +79,10 @@ main {
   background-color: var(--purple);
 }
 
+a {
+  color: var(--lightest_purple);
+}
+
 .container {
   max-width: 160rem;
   width: 100%;

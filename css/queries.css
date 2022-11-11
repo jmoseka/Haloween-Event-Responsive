@@ -24,9 +24,7 @@
 /* below 1004px */
 
 @media (max-width: 59.375rem) {
-    html {
-        font-size: 56.25%;
-    }
+
 
     .heading-description-box {
         width: 85%;
@@ -112,10 +110,10 @@
         height: 10rem;
     }
 
-    .hero-text-content {
+    /* .hero-text-content {
         text-align: center;
        
-    }
+    } */
 
     .hero-date {
         text-align: start;
@@ -170,7 +168,12 @@
 }
 
 @media(max-width: 33.4375em) {
+
+
     
+    .card-text, .card:nth-child(even) .card-text {
+        padding: 4rem 1rem;
+     }
 
     
 
@@ -194,10 +197,10 @@
     }
 
     .hero-img img {
-        top: 60%;
+        top: 54%;
         left: -10%;
         width: 120%;
-        height: 26rem;
+        height: 30rem;
 
     }
 

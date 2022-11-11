@@ -6,7 +6,7 @@
     }
 
     .card:nth-child(even) {
-        grid-template-columns: 60fr 50fr;
+        grid-template-columns: 50fr 60fr;
     }
 
      .card:nth-child(even) .card-text {
@@ -59,9 +59,7 @@
        grid-template-columns: 1fr;
     }
 
-    .hero-date {
-        margin-top: 2rem;
-    }
+  
 
     .hero-img {
         text-align: center;
@@ -94,7 +92,7 @@
 
     .card:nth-child(even) .card-text {
         
-        padding: 6rem 5.5rem 6rem 2rem;
+        padding: 6rem 5.5rem 6rem 5rem;
     }
 
     .footer-container {
@@ -108,6 +106,19 @@
     html {
         font-size: 50%;
     } 
+
+    .hero-text-content {
+        text-align: center;
+    }
+
+    .hero-date {
+        text-align: start;
+        margin-top: 5rem;
+    }
+
+    .heading-description-box {
+        width: 100%;
+      }
 
     .card, .card:nth-child(even) {
         height: auto;
@@ -177,7 +188,6 @@
     }
 
     .hero-img img {
-        border: 8px solid red;
         top: 47%;
         left: -14%;
         width: 130%;

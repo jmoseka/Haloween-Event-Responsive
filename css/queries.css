@@ -104,9 +104,17 @@
 
 @media (max-width: 37.5em) {
 
+    .container {
+        padding: 0 1.8rem;
+    }
+
+    .main-header {
+        height: 10rem;
+    }
 
     .hero-text-content {
         text-align: center;
+       
     }
 
     .hero-date {
@@ -186,9 +194,10 @@
     }
 
     .hero-img img {
-        top: 47%;
-        left: -14%;
-        width: 130%;
+        top: 60%;
+        left: -10%;
+        width: 120%;
+        height: 26rem;
 
     }
 

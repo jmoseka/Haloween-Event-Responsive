@@ -103,9 +103,7 @@
 }
 
 @media (max-width: 37.5em) {
-    html {
-        font-size: 51%;
-    } 
+
 
     .hero-text-content {
         text-align: center;

@@ -303,7 +303,7 @@
 
 .contact-icon {
   color: var(--lightest_purple);
- margin-left: 2rem;
+ padding-left: 2rem;
   cursor: pointer;
   transition: all 0.3s;
 }

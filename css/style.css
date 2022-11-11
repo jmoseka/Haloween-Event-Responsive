@@ -99,6 +99,7 @@
   height: 43rem;
   object-fit: contain;
   z-index: 8;
+  overflow-x: hidden;
 }
 
 /* **************************** */

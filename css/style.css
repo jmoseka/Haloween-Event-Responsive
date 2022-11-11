@@ -48,6 +48,12 @@
 .menu {
   display: none;
   font-size: 4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.menu:hover {
+  color: var(--orange);
 }
 
 .hero-grid {
@@ -70,13 +76,14 @@
 
 .heading-description {
   font-size: 1.6rem;
-  line-height: 1.5;
+  line-height: 1.6;
+  letter-spacing: 0.18px;
 }
 
 .hero-date {
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 1;
-  margin-top: 8rem;
+  margin-top: 6rem;
   letter-spacing: 0.02rem;
 }
 
@@ -86,10 +93,10 @@
 
 .hero-img img {
   position: absolute;
-  top: 24%;
+  top: 26%;
   left: 35%;
   width: 72%;
-  height: 45rem;
+  height: 43rem;
   object-fit: contain;
   z-index: 8;
 }
@@ -128,35 +135,35 @@
 
 .food {
   left: 13%;
-  top: 42%;
+  top: 50%;
 }
 
 .music {
   transform: rotate(-18deg);
   right: 18%;
-  top: 78%;
+  top: 85%;
 }
 
 .programme-cards {
   padding: 8rem 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   row-gap: 12rem;
 }
 
 .card {
   height: 38rem;
-  margin: 0 2rem;
+  padding: 0 4rem;
   position: relative;
   display: grid;
   grid-template-columns: 50fr 60fr;
-  transition: all 0.4s;
+  /* transition: all 0.4s; */
 }
 
-.card:hover {
+/* .card:hover {
   transform: translateY(-1.2rem);
-}
+} */
 
 .card:nth-child(odd) {
   align-self: flex-start;
@@ -164,7 +171,6 @@
 
 .card:nth-child(even) {
   align-self: flex-end;
-  margin-right: 8rem;
 }
 
 .card-img {
@@ -287,16 +293,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 4rem;
 }
 
 .contact-icons-container {
-  margin-left: 2rem;
   font-size: 1.6rem;
 }
 
 .contact-icon {
   color: var(--lightest_purple);
-  margin-left: 2rem;
+ margin-left: 2rem;
   cursor: pointer;
   transition: all 0.3s;
 }

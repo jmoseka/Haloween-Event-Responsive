@@ -100,7 +100,7 @@
     }
 }
 
-@media (max-width: 37.5em) {
+@media (max-width: 41.5em) {
 
     .hero-section {
         padding: 0 1.8rem;
@@ -155,6 +155,22 @@
         width: 100%;
         height: auto;
         text-align: center;
+     }
+
+     .card-icon {
+        width: 16rem;
+     }
+
+     .hat {
+        top: 24%;
+     }
+
+     .food {
+        top: 58%;
+     }
+
+     .music {
+        top: 90%;
      }
 
      .section-programme {

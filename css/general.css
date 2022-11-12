@@ -67,6 +67,7 @@ html {
   font-size: 62.5%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
@@ -75,7 +76,7 @@ body {
   padding: 0;
   color: var(--lightest_purple);
   font-family: 'Roboto Slab', serif;
-
+  overflow-x: hidden;
   min-width: 300px;
 }
 
@@ -90,7 +91,6 @@ a {
 .container {
   max-width: 160rem;
   width: 100%;
-  padding: 0 4rem;
 }
 
 .center {

@@ -75,7 +75,7 @@ body {
   padding: 0;
   color: var(--lightest_purple);
   font-family: 'Roboto Slab', serif;
-  overflow-x: hidden;
+
   min-width: 300px;
 }
 

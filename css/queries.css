@@ -40,9 +40,22 @@
     /* below 730px */
 @media (max-width: 45.625em) {
 
-    .main-nav {
-        display: none;
-    }
+    .main-header {
+        height: 100vh;
+        width: 100%;
+        background: var(--purple);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(100%);
+
+        justify-content: center;
+        transition: all 1s ease-in-out;
+        opacity: 0;
+
+    };
 
     .menu {
         display: block;

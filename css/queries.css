@@ -60,7 +60,7 @@
         justify-content: center;
         align-items: center;
        
-        transition: all 0.5s ease-in-out;
+        /* transition: all 0.5s ease-in; */
         /*hide nav and allow transition to work*/
         /* how to hide elements without using display none */
         opacity: 0;
@@ -74,6 +74,7 @@
     }
 
     .nav-open .main-nav {
+        transition: all 0.5s ease-in;
         opacity: 1;
         pointer-events: auto;
         visibility: visible;

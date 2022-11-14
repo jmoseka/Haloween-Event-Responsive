@@ -26,6 +26,9 @@
   color: var(--lightest_purple);
   text-decoration: none;
 }
+.logo {
+  z-index: 200;
+}
 
 .main-nav-link {
   padding: 0;

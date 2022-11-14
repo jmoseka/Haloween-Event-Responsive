@@ -29,7 +29,7 @@
   .hero-img img {
     top: 27%;
     width: 80%;
-    left: 28%;
+    left: 23%;
   }
 }
 
@@ -69,7 +69,7 @@
   }
 
   .nav-open .main-nav {
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     opacity: 1;
     pointer-events: auto;
     visibility: visible;

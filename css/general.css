@@ -68,6 +68,9 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+
+  /*Does not work on safari*/
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -78,6 +81,7 @@ body {
   font-family: 'Roboto Slab', serif;
   overflow-x: hidden;
   min-width: 300px;
+  scroll-behavior: smooth;
 }
 
 main {

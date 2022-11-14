@@ -17,7 +17,7 @@ allLinks.forEach((link) => {
         
     // scroll back to the top
     if(href === "#") window.scrollTo({
-        top: 0,
+        top: 20,
         behavior: "smooth"
     })
 
@@ -27,13 +27,11 @@ allLinks.forEach((link) => {
         const sectionEl =  document.querySelector(href);
         sectionEl.scrollIntoView({behavior: 'smooth'})
     }
+
+    if(link.classList.contains('nav-link')) {
+       
+        headerEl.classList.toggle('nav-open');
+    }
     })
 
-    // close mobile nav
-    console.log(link.classList)
-
-    // if(link.classList.contains('nav-link')) {
-    //     console.log('yes')
-    //     headerEl.classList.toggle('nav-open');
-    // }
 })

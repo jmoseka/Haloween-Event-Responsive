@@ -130,6 +130,7 @@
 
   .footer-container {
     flex-direction: column;
+    row-gap: 2rem;
     justify-content: space-around;
   }
 }

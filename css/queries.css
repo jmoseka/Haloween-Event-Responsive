@@ -7,7 +7,7 @@
   }
 
   .card:nth-child(even) {
-    grid-template-columns: 50fr 60fr;
+    grid-template-columns: 60fr 50fr;
   }
 
   .card:nth-child(even) .card-text {
@@ -34,7 +34,7 @@
 }
 
 /* below 730px */
-@media (max-width: 45.625em) {
+@media (max-width: 48.625em) {
   .btn-mobile-nav {
     display: block;
     z-index: 51;

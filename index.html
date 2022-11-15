@@ -22,11 +22,9 @@
                 <header class="main-header">
                     <a class="logo" href="#">Makutano</a>
                     <nav class="main-nav">
-                        <ul class="main-nav-link">
                             <a href="#" class="nav-link">Home</a>
                             <a href="#program" class="nav-link">Program</a>
-                            <a href="#cta" class="btn nav-btn nav-link">GET YOUR TICKET</a> 
-                        </ul>    
+                            <a href="#cta" class="btn nav-btn nav-link">GET YOUR TICKET</a>
                     </nav>
 
                     <div class="btn-mobile-nav">
@@ -53,7 +51,17 @@
                           
     
                 <div class="hero-img">
-                    <img class="resize" src="img/hero_enhanced.png" alt="">
+                    <picture>
+                        
+                        <source srcset="img/hero_compress.webp"
+                        type="image/webp"
+                        />
+                        <source srcset="img/hero_resize.png"
+                        type="image/png"
+                        />
+                        <img class="resize" src="img/hero_resized.png" alt="halloween pumpkin image">
+                    </picture>
+                    <!-- <img class="resize" src="img/hero_compress.webp" alt=""> -->
                 </div>  
             </div> 
         </div>
@@ -70,7 +78,7 @@
                     
                     <img class="card-icon hat" src="img/witch-hat-darkest.png" alt="card-icon">
                     <img class="card-icon food" src="img/pizza.png" alt="card-icon">
-                    <img class="card-icon music" src="img/musical-note.png" alt="card-icon">
+                    <img class="card-icon music" src="img/musical-note-png.png" alt="card-icon">
                     
                     <!-- <p class="car">01</p> -->
 
@@ -78,7 +86,7 @@
                     
                         <div class="card">
                         <div class="card-img">
-                            <img src="img/fun.jpg" alt="People on merry-go-round">
+                            <img src="img/fun_compress.webp" alt="People on merry-go-round">
                         </div>
     
                         <div class="card-text">
@@ -91,7 +99,7 @@
     
                     <div class="card">
                         <div class="card-img">
-                            <img src="img/food.jpg" alt="People enjoying good food">
+                            <img src="img/food-compress.webp" alt="People enjoying good food">
                         </div>
     
                         <div class="card-text">
@@ -104,7 +112,7 @@
     
                     <div class="card">
                         <div class="card-img">
-                            <img src="img/music.jpg" alt="Person plaing flute">
+                            <img src="img/music-compress.webp" alt="Person plaing flute">
                         </div>
     
                         <div class="card-text">

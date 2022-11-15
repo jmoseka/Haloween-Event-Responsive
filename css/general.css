@@ -69,7 +69,8 @@ html {
   padding: 0;
   overflow-x: hidden;
 
-  /*Does not work on safari*/
+  /* Does not work on safari */
+
   /* scroll-behavior: smooth; */
 }
 

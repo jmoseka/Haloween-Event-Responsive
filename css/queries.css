@@ -224,9 +224,12 @@
 }
 
 @media (max-width: 27em) {
-  .main, body,html {
+  .main,
+  body,
+  html {
     overflow-x: visible;
   }
+
   .hero-grid {
     height: 48rem;
   }

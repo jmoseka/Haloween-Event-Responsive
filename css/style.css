@@ -29,6 +29,11 @@
 
 .logo {
   z-index: 200;
+  width: 6.8rem;
+}
+
+.logo img {
+  width: 100%;
 }
 
 .main-nav {

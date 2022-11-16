@@ -284,8 +284,7 @@
 }
 
 .cta-form button:hover,
-.cta-form button:active
- {
+.cta-form button:active {
   background: var(--dark_orange);
   color: #fff;
 }

@@ -7,7 +7,7 @@
   }
 
   .card:nth-child(even) {
-    grid-template-columns: 50fr 60fr;
+    grid-template-columns: 60fr 50fr;
   }
 
   .card:nth-child(even) .card-text {
@@ -29,12 +29,12 @@
   .hero-img img {
     top: 27%;
     width: 80%;
-    left: 28%;
+    left: 23%;
   }
 }
 
 /* below 730px */
-@media (max-width: 45.625em) {
+@media (max-width: 48.625em) {
   .btn-mobile-nav {
     display: block;
     z-index: 51;
@@ -50,6 +50,7 @@
     z-index: 50;
     transform: translateX(100%);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -69,7 +70,7 @@
   }
 
   .nav-open .main-nav {
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
@@ -105,10 +106,6 @@
     top: 42%;
     left: -2%;
     height: 34rem;
-
-    /* top: 43%;
-       left: -2%;
-       height: 38rem; */
   }
 
   .programme-cards {
@@ -130,6 +127,7 @@
 
   .footer-container {
     flex-direction: column;
+    row-gap: 2rem;
     justify-content: space-around;
   }
 }
@@ -138,11 +136,6 @@
   .main-header {
     height: 10rem;
   }
-
-  /* .hero-text-content {
-        text-align: center;
-
-    } */
 
   .hero-date {
     text-align: start;
@@ -157,10 +150,13 @@
   .card:nth-child(even) {
     height: auto;
     grid-template-columns: 1fr;
+  }
 
-    /* display: flex;
-       flex-direction: column;
-       align-items: center; */
+  .card-text {
+    padding: 4rem 2rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
   }
 
   .card:nth-child(even) .card-text {
@@ -177,14 +173,6 @@
     position: relative;
     top: 0;
     left: 0;
-  }
-
-  .card-text,
-  .card:nth-child(even) .card-text {
-    padding: 4rem 2rem;
-    width: 100%;
-    height: auto;
-    text-align: center;
   }
 
   .card-icon {
@@ -229,6 +217,10 @@
   .card {
     padding: 0 2rem;
   }
+
+  .cta-container {
+    padding: 4rem 2rem;
+  }
 }
 
 @media (max-width: 27em) {
@@ -245,6 +237,10 @@
 }
 
 @media (max-width: 22.5em) {
+  body {
+    overflow-x: auto;
+  }
+
   .cta-container {
     width: 90%;
   }

@@ -27,7 +27,11 @@
   text-decoration: none;
 }
 
-.main-nav-link {
+.logo {
+  z-index: 200;
+}
+
+.main-nav {
   padding: 0;
   list-style: none;
   display: flex;
@@ -36,13 +40,13 @@
   flex-wrap: wrap;
 }
 
-.main-nav-link li {
+.main-nav a {
   cursor: pointer;
   transition: all 0.3s;
 }
 
-.main-nav-link li:hover,
-.main-nav-link li:active {
+.main-nav a:hover,
+.main-nav a:active {
   color: var(--orange);
 }
 
@@ -104,7 +108,7 @@
 .hero-img img {
   position: absolute;
   top: 26%;
-  left: 35%;
+  left: 32%;
   width: 72%;
   height: 43rem;
   object-fit: contain;
@@ -174,12 +178,16 @@
   /* transition: all 0.4s; */
 }
 
-/* .card:hover {
-  transform: translateY(-1.2rem);
-} */
-
 .card:nth-child(odd) {
   align-self: flex-start;
+}
+
+.card-text {
+  width: 40rem;
+  align-self: center;
+  background-color: rgb(124, 106, 129, 18%);
+  height: inherit;
+  padding: 6rem 2rem 6rem 6rem;
 }
 
 .card:nth-child(even) {
@@ -198,14 +206,6 @@
   width: 100%;
   height: 27rem;
   object-fit: cover;
-}
-
-.card-text {
-  width: 40rem;
-  align-self: center;
-  background-color: rgb(124, 106, 129, 18%);
-  height: inherit;
-  padding: 6rem 2rem 6rem 6rem;
 }
 
 .card-title {
@@ -237,13 +237,13 @@
 .cta-container {
   width: 80%;
   background-color: var(--lightest_purple);
-  padding: 4rem 4rem;
+  padding: 4rem 4rem 6rem 4rem;
 }
 
 .cta-heading {
   font-size: 2rem;
   line-height: 1.5;
-  color: var(--orange);
+  color: var(--dark_purple);
   font-weight: 500;
   margin-bottom: 2rem;
   text-align: center;
@@ -268,7 +268,10 @@
 .cta-form button {
   font-size: 1.6rem;
   font-family: inherit;
+  font-weight: 500;
   height: 4rem;
+  color: var(--lightest_purple);
+  background-color: var(--orange);
 }
 
 .cta-form input,
@@ -291,15 +294,16 @@
 
 .section-footer {
   background-color: var(--purple);
-  height: 8rem;
   max-width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   border-top: 1px solid var(--lightest_purple);
 }
 
 .footer-container {
   font-size: 1.6rem;
+  padding: 4rem 0;
   display: flex;
   align-items: center;
   justify-content: center;

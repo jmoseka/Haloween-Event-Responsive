@@ -1,52 +1,6 @@
-/*
---- 001 TYPOGRAPHY SYSTEM
-- Font sizes (px)
-    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Font weights:
-default: 400
-medium: 500
-semi-bold: 600
-bold: 700
-
-- Line heigths:
-default: 1
-small: 1.05
-medium: 1.2
-larg: 1.8
-paragraph defailt: 1.6
-
---- 02 COLORS
-- Primary: #25062D
-
-tool: maketintsandshades.com
-- Tints: (light version)
-#fdf2e9
-#fae5d3
-#eb984e
-- Shades: (darker version)
-#cf711f
-#45260a;
-- Accents:
-- Greys:
-#888
-#767676 (lightest grey allowed on white)
-#555
-#333
-#6f6f6f (lightest grey allowed on #fdf2e9)
---- 05  SHADOWS
- 0 2.4rem 4.8rem rgba(0,0,0,0.075);
---- 06 BORDER-RADIUS
-default: 9px
-medium: 11px
---- 07 WHITESPACE
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
-
 :root {
   --purple: #25062d;
-  --dark_purple: #66516c;
+  --dark_purple: #210529;
   --yellow: #fdb124;
   --orange: #e76d38;
   --dark_orange: #b9572d;
@@ -68,6 +22,10 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+
+  /* Does not work on safari */
+
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -78,6 +36,7 @@ body {
   font-family: 'Roboto Slab', serif;
   overflow-x: hidden;
   min-width: 300px;
+  scroll-behavior: smooth;
 }
 
 main {
@@ -93,21 +52,14 @@ a {
   width: 100%;
 }
 
-.center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.horizontal-space {
+  padding: 0 2rem;
 }
 
 .grid {
   display: grid;
   gap: 0;
 }
-
-/* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
-
-/* Font sizes (px)
-    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
 .heading-primary {
   font-size: 2.8rem;
@@ -154,6 +106,3 @@ a {
 .highlight-yellow {
   color: var(--yellow);
 }
-
-/*  Font sizes (px)
-    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */

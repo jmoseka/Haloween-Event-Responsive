@@ -16,17 +16,15 @@
 <body>
     <main>
         <!-- Hero section -->
-        <section class="home-section">
+        <section class="home-section" id="#">
 
             <div class=" container hero-section">
-                <header class="main-header">
+                <header class="main-header horizontal-space">
                     <a class="logo" href="#">Makutano</a>
                     <nav class="main-nav">
-                        <ul class="main-nav-link">
-                            <li>Home</li>
-                            <li>Program</li>
-                            <button class="btn nav-btn">GET YOUR TICKET</button> 
-                        </ul>    
+                            <a href="#" class="nav-link">Home</a>
+                            <a href="#program" class="nav-link">Program</a>
+                            <a href="#cta" class="btn nav-btn nav-link">GET YOUR TICKET</a>
                     </nav>
 
                     <div class="btn-mobile-nav">
@@ -35,7 +33,7 @@
                     </div>
                 </header>
     
-                <div class="hero-grid">
+                <div class="hero-grid horizontal-space">
                     <div class="hero-text-content">
                         <div class="hero-headings">
                             <h1 class="heading-primary">A <span class="highlight-yellow">WICKED</span> GOOD TIME PARTY EVENT</h1>
@@ -45,7 +43,7 @@
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                 </p>
                             </div>
-
+                      
                             <p class="hero-date">2022.10.31(MON)</p>
                         </div>
                     </div>
@@ -53,16 +51,25 @@
                           
     
                 <div class="hero-img">
-                    <img class="resize" src="img/hero_enhanced.png" alt="">
+                    <picture>
+                        
+                        <source srcset="img/hero_compress.webp"
+                        type="image/webp"
+                        />
+                        <source srcset="img/hero_resize.png"
+                        type="image/png"
+                        />
+                        <img class="resize" src="img/hero_resized.png" alt="halloween pumpkin image">
+                    </picture>
                 </div>  
             </div> 
         </div>
     </section>
         
         
-            <section class="section-programme">
+            <section class="section-programme" id="program">
                 <div class="container heading-program ">
-                    <h2 class="heading-secondary">WHAT WILL BE THERE</h2>
+                    <h2 class="heading-secondary horizontal-space">WHAT WILL BE THERE</h2>
                 </div>
                 
                 <div class="container program-bg">
@@ -78,7 +85,16 @@
                     
                         <div class="card">
                         <div class="card-img">
-                            <img src="img/fun.jpg" alt="People on merry-go-round">
+                            <picture>
+                                <source srcset="img/fun.webp"
+                                type="image/webp"
+                                />
+                                <source srcset="img/fun.jpg"
+                                type="image/jpg"
+                                />
+                                <img src="img/fun.jpg" alt="halloween pumpkin image">
+                            </picture>
+        
                         </div>
     
                         <div class="card-text">
@@ -91,7 +107,15 @@
     
                     <div class="card">
                         <div class="card-img">
-                            <img src="img/food.jpg" alt="People enjoying good food">
+                            <picture>
+                                <source srcset="img/food.webp"
+                                type="image/webp"
+                                />
+                                <source srcset="img/food.jpg"
+                                type="image/jpg"
+                                />
+                                <img src="img/food.webp" alt="People enjoying good food">
+                            </picture>
                         </div>
     
                         <div class="card-text">
@@ -104,7 +128,16 @@
     
                     <div class="card">
                         <div class="card-img">
-                            <img src="img/music.jpg" alt="Person plaing flute">
+                            <picture>
+                                <source srcset="img/music.webp"
+                                type="image/webp"
+                                />
+                                <source srcset="img/music.jpg"
+                                type="image/jpg"
+                                />
+                                <img src="img/music-compress.webp" alt="Person plaing flute">
+                            </picture>
+                            
                         </div>
     
                         <div class="card-text">
@@ -125,7 +158,7 @@
 
 
         <section class="section-cta">
-            <div class="container cta-container ">
+            <div class="container cta-container" id="cta">
                 <p class="cta-heading">GET YOUR TICKET</p>
                 <form class="cta-form" action="#">
                     <div>

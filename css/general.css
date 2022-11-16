@@ -41,6 +41,7 @@ body {
 
 main {
   background-color: var(--purple);
+  overflow-x: hidden;
 }
 
 a {

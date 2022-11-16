@@ -240,14 +240,14 @@
 
 .cta-container {
   width: 80%;
-  background-color: var(--orange);
-  padding: 4rem 4rem;
+  background-color: var(--lightest_purple);
+  padding: 4rem 4rem 6rem 4rem;
 }
 
 .cta-heading {
   font-size: 2rem;
   line-height: 1.5;
-  color: var(--orange);
+  color: var(--dark_purple);
   font-weight: 500;
   margin-bottom: 2rem;
   text-align: center;
@@ -272,10 +272,10 @@
 .cta-form button {
   font-size: 1.6rem;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 500;
   height: 4rem;
   color: var(--lightest_purple);
-  background-color: var(--purple);
+  background-color: var(--orange);
 }
 
 .cta-form input,

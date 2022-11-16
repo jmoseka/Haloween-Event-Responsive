@@ -80,7 +80,7 @@ a {
   line-height: 1.5;
 }
 
-.btn {
+#btn {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: var(--orange);
   border: none;
@@ -92,8 +92,8 @@ a {
   outline: none;
 }
 
-.btn:hover,
-.btn:active {
+#btn:hover,
+#btn:active {
   background: var(--dark_orange);
   color: #fff;
 }

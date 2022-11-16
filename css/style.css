@@ -30,7 +30,7 @@
 
 .logo {
   z-index: 200;
-  width: 6.8rem;
+  width: 7.5rem;
 }
 
 .logo img {
@@ -51,8 +51,8 @@
   transition: all 0.3s;
 }
 
-.main-nav a:hover,
-.main-nav a:active {
+.nav-link:hover,
+.nav-link:active {
   color: var(--orange);
 }
 
@@ -272,12 +272,22 @@
 }
 
 .cta-form button {
+  cursor: pointer;
+  border: none;
   font-size: 1.6rem;
   font-family: inherit;
   font-weight: 500;
   height: 4rem;
   color: var(--lightest_purple);
   background-color: var(--orange);
+  transition: all 0.3s;
+}
+
+.cta-form button:hover,
+.cta-form button:active
+ {
+  background: var(--dark_orange);
+  color: #fff;
 }
 
 .cta-form input,

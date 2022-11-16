@@ -178,12 +178,16 @@
   /* transition: all 0.4s; */
 }
 
-/* .card:hover {
-  transform: translateY(-1.2rem);
-} */
-
 .card:nth-child(odd) {
   align-self: flex-start;
+}
+
+.card-text {
+  width: 40rem;
+  align-self: center;
+  background-color: rgb(124, 106, 129, 18%);
+  height: inherit;
+  padding: 6rem 2rem 6rem 6rem;
 }
 
 .card:nth-child(even) {
@@ -202,14 +206,6 @@
   width: 100%;
   height: 27rem;
   object-fit: cover;
-}
-
-.card-text {
-  width: 40rem;
-  align-self: center;
-  background-color: rgb(124, 106, 129, 18%);
-  height: inherit;
-  padding: 6rem 2rem 6rem 6rem;
 }
 
 .card-title {

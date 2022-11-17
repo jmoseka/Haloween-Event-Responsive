@@ -21,7 +21,7 @@ allLinks.forEach((link) => {
         behavior: "smooth"
     })
 
-    // scrol to other thinks
+    // scrol to other links
 
     if (href !== "#" && href.startsWith("#")) {
         const sectionEl =  document.querySelector(href);
@@ -35,3 +35,30 @@ allLinks.forEach((link) => {
     })
 
 })
+
+////////////////////////////////////////////////////
+/** STICKY NAVIGATION */
+/////////////////////////////////////////////////////
+
+const sectionHeroGrid = document.querySelector(".hero-grid");
+const observer = new IntersectionObserver(function(entries) {
+    const ent = entries[0];
+
+    if(ent.isIntersecting === false) {
+        document.body.classList.add('sticky')
+    }
+
+    else {
+        document.body.classList.remove('sticky')
+    }
+
+},
+ {
+    // in the viewport
+    root: null,
+    threshold: 0,
+
+})
+
+observer.observe(sectionHeroGrid);
+

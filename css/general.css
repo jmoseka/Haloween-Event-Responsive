@@ -46,7 +46,6 @@ main {
 
 a {
   color: var(--lightest_purple);
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container {

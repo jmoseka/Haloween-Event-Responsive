@@ -47,7 +47,6 @@
 }
 
 .main-nav a {
-  font-family: 'Source Sans Pro', sans-serif;
   cursor: pointer;
   transition: all 0.3s;
 }

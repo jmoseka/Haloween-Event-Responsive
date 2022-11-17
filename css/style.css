@@ -277,7 +277,7 @@
   font-size: 1.6rem;
   font-family: inherit;
   font-weight: 500;
-  height: 4rem;
+  height: 4.2rem;
   color: var(--lightest_purple);
   background-color: var(--orange);
   transition: all 0.3s;
@@ -318,7 +318,7 @@
 
 .footer-container {
   font-size: 1.6rem;
-  padding: 4rem 0;
+  height: 8rem;
   display: flex;
   align-items: center;
   justify-content: center;

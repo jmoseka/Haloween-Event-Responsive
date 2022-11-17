@@ -127,9 +127,10 @@
 
   .footer-container {
     flex-direction: column;
-    row-gap: 2rem;
-    justify-content: space-around;
-  }
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    }
 }
 
 @media (max-width: 41.5em) {
@@ -239,6 +240,10 @@
     left: -10%;
     width: 120%;
     height: 28rem;
+  }
+
+  .footer-container {
+    height: 12rem;
   }
 }
 

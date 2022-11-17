@@ -13,7 +13,7 @@ This is a halloween event website that seeks to master how to build responsive w
 
 <img src="mockup.png" alt="" />
 
-### 🔴 [LIVE LINK](https://jmoseka.github.io/Meals-A-Day/)
+### 🔴 [LIVE LINK](https://splendorous-pudding-c08a4e.netlify.app/)
 
 <hr>
 

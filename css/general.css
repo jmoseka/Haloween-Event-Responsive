@@ -46,6 +46,7 @@ main {
 
 a {
   color: var(--lightest_purple);
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container {
@@ -70,7 +71,7 @@ a {
 
 .heading-secondary {
   font-weight: 400;
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   line-height: 1;
   margin-bottom: 2.6rem;
 }

@@ -33,8 +33,8 @@ This is a halloween event website that seeks to master how to build responsive w
 ### Clone this repository
 
 ```bash
-$ git clone https://github.com/jmoseka/Meals-A-Day.git
-$ cd Meals-A-Day
+$ git clone https://github.com/jmoseka/Haloween-Event-Responsive.git
+$ cd Haloween-Event-Responsive
 ```
 
 ### Open page in browser

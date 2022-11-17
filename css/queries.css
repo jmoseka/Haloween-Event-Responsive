@@ -114,7 +114,7 @@
   }
 
   .card {
-    grid-template-columns: 60fr 50fr;
+    grid-template-columns: 50fr 60fr;
   }
 
   .card-text {

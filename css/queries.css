@@ -1,0 +1,258 @@
+/* below 1200px */
+
+@media (max-width: 75em) {
+  .card:nth-child(odd),
+  .card:nth-child(even) {
+    align-self: center;
+  }
+
+  .card:nth-child(even) {
+    grid-template-columns: 60fr 50fr;
+  }
+
+  .card:nth-child(even) .card-text {
+    grid-row: 1;
+  }
+
+  .card:nth-child(even) .card-img img {
+    left: -12%;
+  }
+}
+
+/* below 1004px */
+
+@media (max-width: 59.375rem) {
+  .heading-description-box {
+    width: 85%;
+  }
+
+  .hero-img img {
+    top: 27%;
+    width: 80%;
+    left: 23%;
+  }
+}
+
+/* below 730px */
+@media (max-width: 48.625em) {
+  .btn-mobile-nav {
+    display: block;
+    z-index: 51;
+  }
+
+  .main-nav {
+    background-color: var(--purple);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 50;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* transition: all 0.5s ease-in; */
+
+    /* hide nav and allow transition to work */
+
+    /* how to hide elements without using display none */
+    opacity: 0;
+
+    /* 2. make it unaccessible to mouse and keyboard (make it invisible
+        since we are using opacity */
+    pointer-events: none;
+
+    /* 3. Hide from screen readers */
+    visibility: none;
+  }
+
+  .nav-open .main-nav {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-link {
+    flex-direction: column;
+  }
+
+  .hero-text-content {
+    padding-top: 4rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img {
+    text-align: center;
+  }
+
+  .hero-img img {
+    width: 108%;
+    top: 42%;
+    left: -2%;
+    height: 34rem;
+  }
+
+  .programme-cards {
+    row-gap: 8rem;
+    padding: 4rem 0;
+  }
+
+  .card {
+    grid-template-columns: 60fr 50fr;
+  }
+
+  .card-text {
+    width: 30rem;
+  }
+
+  .card:nth-child(even) .card-text {
+    padding: 6rem 5.5rem 6rem 5rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 41.5em) {
+  .main-header {
+    height: 10rem;
+  }
+
+  .hero-date {
+    text-align: start;
+    margin-top: 3.5rem;
+  }
+
+  .heading-description-box {
+    width: 100%;
+  }
+
+  .card,
+  .card:nth-child(even) {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .card-text {
+    padding: 4rem 2rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .card:nth-child(even) .card-text {
+    grid-row: 2;
+  }
+
+  .card:nth-child(even) .card-img,
+  .card:nth-child(odd) .card-img {
+    width: 100%;
+  }
+
+  .card:nth-child(even) .card-img img,
+  .card:nth-child(odd) .card-img img {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .card-icon {
+    width: 16rem;
+  }
+
+  .hat {
+    top: 24%;
+  }
+
+  .food {
+    top: 58%;
+  }
+
+  .music {
+    top: 90%;
+  }
+
+  .section-programme {
+    padding: 14rem 0 4rem 0;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 33.4375em) {
+  .card-text,
+  .card:nth-child(even) .card-text {
+    padding: 4rem 1rem;
+  }
+
+  .heading-primary {
+    font-size: 2.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    padding: 0 2rem;
+  }
+
+  .cta-container {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (max-width: 27em) {
+  .main,
+  body,
+  html {
+    overflow-x: visible;
+  }
+
+  .hero-grid {
+    height: 48rem;
+  }
+
+  .hero-img img {
+    top: 55%;
+    left: -10%;
+    width: 120%;
+    height: 28rem;
+  }
+
+  .footer-container {
+    height: 12rem;
+  }
+}
+
+@media (max-width: 22.5em) {
+  body {
+    overflow-x: auto;
+  }
+
+  .cta-container {
+    width: 90%;
+  }
+}

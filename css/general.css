@@ -1,0 +1,109 @@
+:root {
+  --purple: #25062d;
+  --dark_purple: #210529;
+  --yellow: #fdb124;
+  --orange: #e76d38;
+  --dark_orange: #b9572d;
+  --lightest_purple: #e9e6ea;
+  --dark_pink: #54163a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px = 0.625 = 62.5% */
+
+  /* Percentage of users browser font size setting */
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+  /* Does not work on safari */
+
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  color: var(--lightest_purple);
+  font-family: 'Roboto Slab', serif;
+  overflow-x: hidden;
+  min-width: 300px;
+  scroll-behavior: smooth;
+}
+
+main {
+  background-color: var(--purple);
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--lightest_purple);
+}
+
+.container {
+  max-width: 160rem;
+  width: 100%;
+}
+
+.horizontal-space {
+  padding: 0 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 0;
+}
+
+.heading-primary {
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin-bottom: 1.8rem;
+}
+
+.heading-secondary {
+  font-weight: 400;
+  font-size: 2.3rem;
+  line-height: 1;
+  margin-bottom: 2.6rem;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+#btn {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: var(--orange);
+  border: none;
+  padding: 1rem;
+  color: #e9e6ea;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  outline: none;
+}
+
+#btn:hover,
+#btn:active {
+  background: var(--dark_orange);
+  color: #fff;
+}
+
+#btn-form {
+  padding: 0;
+  margin: 0;
+  background-color: #54163a;
+}
+
+.highlight-yellow {
+  color: var(--yellow);
+}

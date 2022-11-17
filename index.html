@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+   
+    <title>Halloween Event</title>
+</head>
+<body>
+    <main>
+        <!-- Hero section -->
+        <section class="home-section" id="#">
+
+            <div class=" container hero-section">
+                <header class="main-header horizontal-space">
+                    <a class="logo" href="#"><img src="img/logo.png" alt="logo image"></a>
+                    <nav class="main-nav">
+                            <a href="#" class="nav-link">Home</a>
+                            <a href="#program" class="nav-link">Program</a>
+                            <a href="#cta" id="btn" class="nav-link">GET YOUR TICKET</a>
+                    </nav>
+
+                    <div class="btn-mobile-nav">
+                        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+                        <ion-icon class="icon-mobile-nav"  name="close-outline"></ion-icon>
+                    </div>
+                </header>
+    
+                <div class="hero-grid horizontal-space">
+                    <div class="hero-text-content">
+                        <div class="hero-headings">
+                            <h1 class="heading-primary">A <span class="highlight-yellow">WICKED</span> GOOD TIME PARTY EVENT</h1>
+                            <div class="heading-description-box">
+                                <p class="heading-description">Come get spooky with us! 
+                                    We are inviting you to a fun filled day on halloween. 
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                </p>
+                            </div>
+                      
+                            <p class="hero-date">2022.10.31(MON)</p>
+                        </div>
+                    </div>
+
+                          
+    
+                <div class="hero-img">
+                    <picture>
+                        
+                        <source srcset="img/hero_compress.webp"
+                        type="image/webp"
+                        />
+                        <source srcset="img/hero_resize.png"
+                        type="image/png"
+                        />
+                        <img class="resize" src="img/hero_resized.png" alt="halloween pumpkin image">
+                    </picture>
+                </div>  
+            </div> 
+        </div>
+    </section>
+        
+        
+            <section class="section-programme">
+                <div class="container heading-program" id="program">
+                    <h2 class="heading-secondary horizontal-space">WHAT WILL BE THERE</h2>
+                </div>
+                
+                <div class="container program-bg">
+
+                    
+                    <img class="card-icon hat" src="img/witch-hat-darkest.png" alt="card-icon">
+                    <img class="card-icon food" src="img/pizza.png" alt="card-icon">
+                    <img class="card-icon music" src="img/musical-note.png" alt="card-icon">
+                    
+                    <!-- <p class="car">01</p> -->
+
+                    <div class="programme-cards container">
+                    
+                        <div class="card">
+                        <div class="card-img">
+                            <picture>
+                                <source srcset="img/fun.webp"
+                                type="image/webp"
+                                />
+                                <source srcset="img/fun.jpg"
+                                type="image/jpg"
+                                />
+                                <img src="img/fun.jpg" alt="halloween pumpkin image">
+                            </picture>
+        
+                        </div>
+    
+                        <div class="card-text">
+                                <h3 class="card-title highlight-yellow">FUN ACTIVITIES</h3>
+                                <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quia vero commodi enim placeat, voluptatem laboriosam maxime explicabo laborum</p>
+                        </div>
+                    </div>
+    
+    
+                    <div class="card">
+                        <div class="card-img">
+                            <picture>
+                                <source srcset="img/food.webp"
+                                type="image/webp"
+                                />
+                                <source srcset="img/food.jpg"
+                                type="image/jpg"
+                                />
+                                <img src="img/food.webp" alt="People enjoying good food">
+                            </picture>
+                        </div>
+    
+                        <div class="card-text">
+                                <h3 class="card-title highlight-yellow">GOOD FOOD</h3>
+                                <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quia vero commodi enim placeat, voluptatem laboriosam maxime explicabo laborum</p>
+                        </div>  
+                    </div>
+    
+    
+                    <div class="card">
+                        <div class="card-img">
+                            <picture>
+                                <source srcset="img/music.webp"
+                                type="image/webp"
+                                />
+                                <source srcset="img/music.jpg"
+                                type="image/jpg"
+                                />
+                                <img src="img/music-compress.webp" alt="Person plaing flute">
+                            </picture>
+                            
+                        </div>
+    
+                        <div class="card-text">
+                                <h3 class="card-title highlight-yellow"> GREAT MUSIC</h3>
+                                <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quia vero commodi enim placeat, voluptatem laboriosam maxime explicabo laborum</p>
+                        </div>  
+                    </div>
+    
+                    </div>
+
+                </div>
+               
+
+        </section>
+
+
+
+
+        <section class="section-cta">
+            <div class="container cta-container" id="cta">
+                <p class="cta-heading">GET YOUR TICKET</p>
+                <form class="cta-form" name="sign-up" netlify>
+                    <div>
+                        <label for="full-name">Full Name</label>
+                        <input name="full-name" id="full-name" type="text"
+                         placeholder="John Smith" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input name="email" id="email" type="text"
+                         placeholder="me@example.com" required>
+                    </div>
+
+                    <div>
+                        <label for="select-where">Where did you hear from us?</label>
+                        <select name="select-where" id="select-where" required>
+                        <option value="">Please choose one option</option>
+                        <option value="friends">Friends and Family</option>
+                        <option value="youtube">Youtube</option>
+                        <option value="podcast">Podcast</option>
+                        <option value="ad">Facebook Ad</option>
+                        <option value="others">Others</option>
+                    </select>
+                    </div>
+                
+                    <button>SEND</button>
+
+                </form>
+            </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="section-footer">
+        
+        <div class=" footer-container container">
+            <p class="copyright horizontal-space">Copyright &copy; 2022 by Jamila Moseka, Inc. All rights reserved</p>
+
+            <div class="contact-icons-container">
+                <a href="https://github.com/jmoseka" target="_blank"><ion-icon class="contact-icon" name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/jamila-moseka/" target="_blank"><ion-icon class="contact-icon" name="logo-linkedin"></ion-icon></a>
+                <a href="https://twitter.com/milamoseka" target="_blank"><ion-icon class="contact-icon" name="logo-twitter"></ion-icon></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
